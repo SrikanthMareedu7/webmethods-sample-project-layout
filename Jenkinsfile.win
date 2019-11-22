@@ -25,7 +25,7 @@ pipeline {
     
     stage('Checkout-webmethods-sample-project-layout') {
         steps {
-            checkout([$class: 'GitSCM', branches: [[name: ''5a7e35df7a79563a32c85134f853743c5c099ea7'']],
+            checkout([$class: 'GitSCM', branches: [[name:5a7e35df7a79563a32c85134f853743c5c099ea7]],
                       userRemoteConfigs: [[url: 'https://github.com/SrikanthMareedu7/webmethods-sample-project-layout']]])
         }
     }
